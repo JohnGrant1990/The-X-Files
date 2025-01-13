@@ -1,0 +1,45 @@
+body {
+    background: url('Images/02.jpg') no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    margin: 0;
+    padding: 0;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.hero {
+    height: 60vh;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 8px #000;
+}
+
+#audioPlayer {
+    display: none; /* Oculta el reproductor */
+}
+
+footer {
+    border-top: 2px solid #00ff00; /* Borde superior */
+    background-color: #000;    /* Fondo del pie de página */
+    color: #fff;               /* Color del texto */
+    padding: 10px 0;             /* Espaciado interno */
+}
+
+footer p {
+    font-size: 1.2rem; /* Tamaño del texto */
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    align-items: center;     /* Centrar verticalmente */
+    gap: 10px;               /* Espacio entre iconos y texto */
+}
+
+footer img {
+    width: 24px; /* Tamaño de los iconos */
+    height: 24px;
+}

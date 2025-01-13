@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: url('Images/02.jpg') no-repeat center center fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #00ff00;
+}
+
+form .form-control {
+    border: 2px solid #00ff00;
+    background-color: white;
+    color: #ecf0f1;
+}
+
+form .form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+
+form button {
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #000000;
+}
+
+footer {
+    border-top: 2px solid #00ff00; /* Borde superior */
+    background-color: #000;    /* Fondo del pie de página */
+    color: #fff;               /* Color del texto */
+    padding: 10px 0;             /* Espaciado interno */
+}
+
+footer p {
+    font-size: 1.2rem; /* Tamaño del texto */
+    display: flex;
+    justify-content: center; /* Centrar el contenido */
+    align-items: center;     /* Centrar verticalmente */
+    gap: 10px;               /* Espacio entre iconos y texto */
+}
+
+footer img {
+    width: 24px; /* Tamaño de los iconos */
+    height: 24px;
+}
